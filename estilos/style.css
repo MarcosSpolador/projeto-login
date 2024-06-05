@@ -55,6 +55,43 @@ section#login >  div#img{
 }
 
 section#login >  div#formulario{
+    padding-top:5px;
     display: block;
     padding: 10px;
 }
+
+section#login >  div#formulario > h1{
+    text-align: center;
+}
+
+section#login >  div#formulario > p{
+    padding: 5px;
+    font-size: 0.8em;
+}
+
+
+ .campo {
+    padding-left:5px;
+    margin:3px;
+    background-color:#AEBFBE;
+    border-radius: 8px; 
+    
+}
+
+.campo svg{
+    background-color: black;
+    color: blue;
+    
+}
+
+
+.campo input {
+    text-align: center;
+    background-color: cadetblue;
+    padding: 8px;
+    border-radius: 8px;
+    transform: translateY(-4px);
+}
+
+
+
